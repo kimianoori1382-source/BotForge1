@@ -1,0 +1,7 @@
+services:
+  botforge:
+    build: .
+    container_name: botforge
+    restart: unless-stopped
+    env_file:
+      - .env
