@@ -1,0 +1,28 @@
+{
+    "name": "botforge/telegram-bot-framework",
+    "description": "a framework for telegram bots",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^8.5",
+        "vlucas/phpdotenv": "^5.8",
+        "psr/container": "^2.0"
+    },
+
+    "autoload":{
+        "psr-4":{
+            "Botforge\\": "src/"
+        }
+    },
+    "require-dev":{
+        "phpunit/phpunit": "11.5.50",
+        "phpstan/phpstan": "^2.3",
+        "friendsofphp/php-cs-fixer": "^3.0"
+    },
+    "scripts": {
+        "test": "phpunit",
+        "analyse": "phpstan analyse",
+        "format:check": "php-cs-fixer --dry-run --diff"
+}
+}
