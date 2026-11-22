@@ -1,6 +1,7 @@
 {
     "name": "botforge/telegram-bot-framework",
     "description": "a framework for telegram bots",
+    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "require": {

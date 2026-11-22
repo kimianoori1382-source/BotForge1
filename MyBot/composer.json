@@ -1,0 +1,17 @@
+{
+    "name": "botforge/mybot",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "..",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "botforge/telegram-bot-framework": "^1.0"
+    }
+}
